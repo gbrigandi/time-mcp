@@ -37,5 +37,9 @@ def get_current_unix_timestamp() -> float:
     return time.time()
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport='stdio')
+
+
+if __name__ == "__main__":
+    main()
